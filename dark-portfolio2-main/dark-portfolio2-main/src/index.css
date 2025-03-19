@@ -46,8 +46,8 @@ html{
 
   .moon {
     position: absolute;
-    top: 10%;
-    right: 10%;
+    top: 12%;
+    right: 5%;
     width: 80px;
     height: 80px;
     background: #d7d49c; 
@@ -68,16 +68,16 @@ html{
   .star:nth-child(2) {
     top: 20%;
     left: 50%;
-    width: 7px;
-    height: 7px;
+    width: 9px;
+    height: 9px;
     animation-duration: 7s;
   }
   
   .star:nth-child(3) {
     top: 30%;
     left: 70%;
-    width: 5px;
-    height: 5px;
+    width: 8px;
+    height: 8px;
     animation-duration: 4s;
   }
   

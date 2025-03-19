@@ -105,27 +105,29 @@ const Hero = () => {
   return (
     <section className='h-max md:h-screen bg-gradient-to-l bg-gray-950 text-white flex flex-col justify-center items-center relative z-10 pb-10'>
     <div className="starry-background">
-        <div data-aos='zoom-in' className="moon"></div>
+        <div data-aos='zoom-in' className="moon "></div>
         {[...Array(10)].map((_, index) => (
             <div key={index} className="star"></div>
         ))}
     </div>
     
     <div data-aos='zoom-in' className='max-w-7xl mt-24 mx-auto items-center flex flex-col md:flex-row gap-8 md:gap-16 lg:gap-40 justify-between px-4'>
-        <div className='md:space-y-6'>
-            <div className='md:text-5xl lg:text-6xl text-4xl font-bold mb-4'>
+        <div className='md:space-y-6 text-center md:text-left'>
+            <div className='text-4xl md:text-5xl lg:text-6xl font-bold mb-4'>
                 Hi👋, I'm <p className='text-blue-400'>Ashis Sahu</p>
             </div>
-            <p className='md:text-xl lg:text-2xl text-lg mb-3'>Front-End Developer</p>
+            <p className='text-lg md:text-xl lg:text-2xl mb-3'>Front-End Developer</p>
             <p className='lg:w-[500px] mb-4 md:mb-0 text-md text-gray-300'>
                 I am a Front-End Developer passionate about creating beautiful and responsive websites.
             </p>
+            <span  className='flex justify-center lg:justify-start md:justify-start'>
             <button 
                 onClick={handleDownloadResume}
                 className='px-3 py-2 flex items-center gap-2 bg-blue-500 rounded-md text-white hover:bg-blue-600 shadow-blue-500 border-2 border-blue-400 transition-all shadow-[0_0_2px_#fff,inset_0_0_2px_#fff,0_0_5px_#33CCCC,0_0_15px_#33CCCC,0_0_30px_#33CCCC]'>
                 Download CV
             </button>
-            <div className='flex gap-3 text-2xl transition-all mt-5 md:mt-0'>
+            </span>
+            <div className='flex gap-3 text-2xl transition-all mt-5 md:mt-0 justify-center md:justify-start'>
                 <FaFacebook className='hover:text-blue-400' />
                 <FaInstagram className='hover:text-blue-400' />
                 <FaLinkedin className='hover:text-blue-400' />
@@ -136,7 +138,7 @@ const Hero = () => {
             <img 
                 src={Profile} 
                 alt="" 
-                className='rounded-full border border-blue-600 w-[250px] h-[250px]   lg:w-[490px] lg:h-[490px] shadow-[0px_0px_20px_10px_rgba(0,0,0,0.3)] shadow-blue-500'/>
+                className='rounded-full border border-blue-600 w-[200px] h-[200px] md:w-[300px] md:h-[300px] lg:w-[400px] lg:h-[400px] shadow-[0px_0px_20px_10px_rgba(0,0,0,0.3)] shadow-blue-500'/>
         </div>
     </div>
 </section>
