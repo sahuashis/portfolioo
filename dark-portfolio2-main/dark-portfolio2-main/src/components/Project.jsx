@@ -28,7 +28,7 @@ const Project = () => {
         {
           title: "Car Rental Site",
           techStack: ["React", "Tailwind css",  "Javascript"],
-          link: "https://travels-a1ny.vercel.app/",
+          link: "https://vermacars.com/",
           github: 'https://github.com/sahuashis/travels/tree/main/vermatravels/vermatravels',
           image: Nikee, 
         },
