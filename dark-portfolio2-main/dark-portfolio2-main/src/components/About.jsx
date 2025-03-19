@@ -10,7 +10,7 @@ const About = () => {
         <div className='flex flex-col md:flex-row gap-20 items-center'>
 
           <div data-aos="fade-right"
-            data-aos-offset="300" className='relative border hidden md:block border-blue-600 p-1 rounded-full bg-blue-500 shadow-[0px_0px_20px_10px_rgba(0,0,0,0.3)] shadow-blue-500'>
+            data-aos-offset="300" className='relative border hidden lg:block border-blue-600 p-1 rounded-full bg-blue-500 shadow-[0px_0px_20px_10px_rgba(0,0,0,0.3)] shadow-blue-500'>
             <img src={AboutImg} alt="" className='w-[300px] md:w-[1500px] rounded-full border-blue-600 border shadow-blue-500 ' />
           </div>
           
