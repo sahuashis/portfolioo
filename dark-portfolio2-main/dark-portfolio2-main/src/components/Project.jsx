@@ -44,10 +44,11 @@ const Project = () => {
   return (
     <section id='project' className='bg-gradient-to-r bg-gray-900 py-16 px-6'>
       <div className='max-w-7xl mx-auto'>
-        <h2 className='text-5xl font-bold text-center text-gray-300 mb-12'>Projects</h2>
-        <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-10'>
+        <h2 data-aos='zoom-in' className='text-5xl font-bold text-center text-gray-300 mb-12'>Projects</h2>
+        <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-10'>
             {projects.map((project, index) => (
-                <div key={index} className='bg-gray-950  rounded-lg shadow-lg overflow-hidden transform transition-transform hover:scale-105'>
+                <div data-aos="zoom-in"
+                data-aos-offset="300" key={index} className='bg-gray-950  rounded-lg shadow-lg overflow-hidden transform transition-transform hover:scale-105'>
                     <img src={project.image} alt={project.title} className='w-full h-48 object-cover px-3 pt-3 rounded-2xl'/>
                     <div className='p-6'>
                         <h3 className='text-2xl font-semibold text-gray-300 mb-2'>{project.title}</h3>

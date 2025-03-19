@@ -15,11 +15,10 @@ const Hero = () => {
     doc.setFontSize(16);
     doc.text('ASHIS KUMAR SAHU', 10, 10);
 
-    
     doc.setFontSize(10);
     doc.text('Email: sahuashis374@gmail.com | Mobile: (+91) 7735215292 / (+91) 8018885031', 10, 20);
 
-    // Profile Summary
+    
     doc.setFontSize(12);
     doc.text('PROFILE SUMMARY', 10, 30);
     doc.setFontSize(10);
@@ -30,7 +29,7 @@ const Hero = () => {
         { maxWidth: 180 }
     );
 
-    // Key Skills
+    
     doc.setFontSize(12);
     doc.text('KEY SKILLS', 10, 55);
     doc.setFontSize(10);
@@ -42,14 +41,14 @@ const Hero = () => {
     doc.text('- API Integration', 10, 85);
     doc.text('- Responsive Web Design', 10, 90);
 
-    // Languages
+   
     doc.setFontSize(12);
     doc.text('LANGUAGES', 10, 100);
     doc.setFontSize(10);
     doc.text('- English', 10, 105);
     doc.text('- Hindi', 10, 110);
 
-    // Education
+    
     doc.setFontSize(12);
     doc.text('EDUCATION', 10, 120);
     doc.setFontSize(10);
@@ -69,9 +68,7 @@ const Hero = () => {
     doc.text('- Conducted code reviews and debugging to ensure high-quality deliverables.', 10, 205, { maxWidth: 180 });
 
     
-    if (doc.internal.getNumberOfPages() === 1 && doc.internal.getCurrentPageInfo().pageNumber === 1) {
-        doc.addPage();
-    }
+    doc.addPage();
 
     
     doc.setFontSize(12);
@@ -101,8 +98,10 @@ const Hero = () => {
     doc.setFontSize(10);
     doc.text('- Exploring new web technologies', 10, 155);
 
+  
     doc.save('Ashis_Kumar_Sahu_Resume.pdf');
 };
+  
   return (
     <section className='h-max md:h-screen bg-gradient-to-l bg-gray-950 text-white flex flex-col justify-center items-center relative z-10 pb-10'>
      
@@ -139,7 +138,7 @@ const Hero = () => {
         <div className='relative group'>
             <img 
             
-            src={Profile} alt="" className=' rounded-full border bg-cover border-blue-600 md:w-[490px] w-[300px] md:h-[490px] h-[300px] shadow-[0px_0px_20px_10px_rgba(0,0,0,0.3)] shadow-blue-500'/>
+            src={Profile} alt="" className='rounded-full border border-blue-600 md:w-[490px] w-[300px] md:h-[490px] h-[300px] shadow-[0px_0px_20px_10px_rgba(0,0,0,0.3)] shadow-blue-500'/>
         </div>
       </div>
     </section>

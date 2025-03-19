@@ -4,11 +4,13 @@ import {FaSquareXTwitter} from 'react-icons/fa6'
 const Contact = () => {
   return (
     <section id='contact' className='bg-gray-950 py-16 px-6'>
-      <div className='max-w-7xl mx-auto'>
-        <h2 className='text-5xl font-bold text-center text-gray-300 mb-12'>Contact Me</h2>
+      <div  className='max-w-7xl mx-auto'>
+        
+        <h2 data-aos='zoom-in' className='text-5xl font-bold text-center text-gray-300 mb-12'>Contact Me</h2>
         <div className='grid lg:grid-cols-2 gap-10'>
             {/* contact info */}
-            <div className='flex flex-col justify-center space-y-8'>
+            <div data-aos="fade-right"
+     data-aos-offset="300" className='flex flex-col justify-center space-y-8'>
                 <div>
                     <h1 className='text-4xl lg:text-6xl font-bold text-gray-300'>Let's Talk</h1>
                    
@@ -36,7 +38,8 @@ const Contact = () => {
                 </div>
             </div>
             {/* contact form */}
-            <div className='bg-gray-900 rounded-lg shadow-[0px_0px_20px_10px_rgba(0,0,0,0.3)] shadow-blue-500 p-8'>
+            <div data-aos="fade-left"
+     data-aos-offset="300" className='bg-gray-900 rounded-lg shadow-[0px_0px_20px_10px_rgba(0,0,0,0.3)] shadow-blue-500 p-8'>
                 <h3 className='text-3xl font-semibold text-gray-300 mb-6'>Get in Touch</h3>
                 <form action="" className='space-y-6'>
                     <div>
