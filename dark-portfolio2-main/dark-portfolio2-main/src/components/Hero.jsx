@@ -105,8 +105,7 @@ const Hero = () => {
   return (
     <section className='h-max md:h-screen bg-gradient-to-l bg-gray-950 text-white flex flex-col justify-center items-center relative z-10 pb-10'>
     <div className="starry-background">
-        <div data-aos='zoom-in' className="moon "></div>
-        {[...Array(10)].map((_, index) => (
+        {[...Array(13)].map((_, index) => (
             <div key={index} className="star"></div>
         ))}
     </div>

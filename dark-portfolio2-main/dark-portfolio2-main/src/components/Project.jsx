@@ -21,8 +21,8 @@ const Project = () => {
         {
           title: "Ecommrce site",
           techStack: ["React", "Tailwind css", "Redux", "Javascript"],
-          link: "https://ecommerce-alpha-self-66.vercel.app/",
-          github: 'https://github.com/sahuashis/AGRICONIC',
+          link: "https://www.surakshatrack.com/",
+          github: 'https://github.com/Ecommerce-Msimaya',
           image: Nike, 
         },
         {

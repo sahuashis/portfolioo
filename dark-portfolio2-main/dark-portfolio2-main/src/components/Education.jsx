@@ -32,9 +32,9 @@ const experience = [
   },
   {
     role: "Frontend Developer",
-    company: "Expert Solution Private Limited",
+    company: "Msimaya Software Pvt Ltd",
     year: "2025",
-    description: "Contributed to the design and development of scalable and efficient frontend solutions for client projects. Utilized frameworks like React.js and Next.js to build dynamic and interactive web applications.",
+    description:"Contributed to the design and development of scalable and efficient frontend solutions for client projects. Utilized frameworks like React.js and Next.js to build dynamic and interactive web applications. Also familiar with Node.js and MongoDB, enabling effective collaboration on full-stack development tasks and backend integration.",
     icon: "💻"
   }
 ];
